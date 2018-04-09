@@ -7,6 +7,14 @@ import {
 } from '../../actions';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import DonateRequestSegment from '../postSegment/DonateRequestSegment';
+
+const styles ={
+	
+	filtertitle :{
+		  fontSize:26,
+		
+	}
+};
 class CategoryHome extends Component {
     componentDidMount() {
         this.props.fetchCategories();
@@ -23,6 +31,7 @@ class CategoryHome extends Component {
 			    <h3 className="title is-3 is-spaced"></h3>
    <div className="container">
          <div className="columns">
+		  <b style={styles.filtertitle}> Filter By</b>
             {categories &&
              categories.map((category, index) => {
               
