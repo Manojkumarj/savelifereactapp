@@ -8,13 +8,6 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-.readable-header {
-  background: white;
-  -webkit-box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.62);
-          box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.62);
-  /*	margin-bottom: 24px; */
-}
-
 .home-background{
 	background:url("./background_blood.jpg");
 	    width: 100%;
