@@ -7,7 +7,6 @@ import {
 
 export const LOAD_POSTS = 'LOAD_POSTS';
 export const LOAD_CATEGORIES = 'LOAD_CATEGORIES';
-export const SELECT_POST = 'SELECT_POST';
 export const SELECT_CATEGORY ='SELECT_CATEGORY';
 
 

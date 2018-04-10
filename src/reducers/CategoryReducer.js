@@ -1,6 +1,5 @@
 import {
 	LOAD_CATEGORIES,
-	SELECT_POST,
 SELECT_CATEGORY
  } from '../actions';
  
@@ -13,13 +12,7 @@ SELECT_CATEGORY
             return {
                 categories,
                 currentCategory: category
-            };
-        case SELECT_POST:
-	        ({category} = action);
-            return {
-                ...state,
-                currentCategory: category
-            };
+            };       
         case SELECT_CATEGORY:
             return {
                 ...state,
