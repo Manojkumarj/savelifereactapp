@@ -5,7 +5,6 @@ import {
  } from '../actions';
 
 function posts (state = initialPostsState, action) {
-	debugger;
     switch (action.type) {
         case LOAD_POSTS:
             const { posts } = action;
@@ -24,15 +23,7 @@ function posts (state = initialPostsState, action) {
 }
 
 const sortPostsBy = (posts, option) => {
-    switch (option) {
-        case SORT_BY_UP:
-            return [...posts].sort((a, b) => {
-                return b.voteScore - a.voteScore;
-            });
-        case SORT_BY_DOWN:
-            return [...posts].sort((a, b) => {
-                return a.voteScore - b.voteScore;
-            });
+    switch (option) {   
         case SORT_BY_LATEST:
             return [...posts].sort((a, b) => {
                 return b.timestamp - a.timestamp;
@@ -42,8 +33,6 @@ const sortPostsBy = (posts, option) => {
     }
 }
 
-const SORT_BY_UP = 'upVotes';
-const SORT_BY_DOWN = 'downVotes';
 const SORT_BY_LATEST = 'latest';
 
 const initialPostsState = {
