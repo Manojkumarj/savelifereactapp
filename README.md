@@ -10,10 +10,10 @@ Screenshots below :
 
 
 ## 2.Category and Post Component(List View)
-![alt text](https://cloudinary.com/console/media_library/asset/image/upload/Screenshot2.png)
+![alt text](http://res.cloudinary.com/save-life-react-cdn/image/upload/v1523432088/Screenshot2.png)
 
 ## 3.Detail with filter based on the category (List View)
-![alt text](https://cloudinary.com/console/media_library/asset/image/upload/Screenshot3.png)
+![alt text](http://res.cloudinary.com/save-life-react-cdn/image/upload/v1523432086/Screenshot3.png)
 
 
 
