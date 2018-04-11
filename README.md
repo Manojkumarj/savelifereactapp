@@ -1,3 +1,27 @@
+A network platform that connects blood banks, blood donors and blood requesters built using react.
+
+
+
+Screenshots below :
+
+
+## 1. Landing Page Component
+![alt text](http://res.cloudinary.com/save-life-react-cdn/image/upload/v1523432092/Screenshot.png)
+
+
+## 2.Category and Post Component(List View)
+![alt text](https://cloudinary.com/console/media_library/asset/image/upload/Screenshot2)
+
+## 3.Detail with filter based on the category (List View)
+![alt text](https://cloudinary.com/console/media_library/asset/image/upload/Screenshot3)
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
