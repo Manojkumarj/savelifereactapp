@@ -1,6 +1,4 @@
-A network platform that connects blood banks, blood donors and blood requesters built using react.
-
-
+A network platform that connects blood banks, blood donors and blood requesters built using react(POC).
 
 Screenshots below :
 
@@ -14,12 +12,6 @@ Screenshots below :
 
 ## 3.Detail with filter based on the category (List View)
 ![alt text](http://res.cloudinary.com/save-life-react-cdn/image/upload/v1523432086/Screenshot3.png)
-
-
-
-
-
-
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
