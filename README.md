@@ -1,4 +1,6 @@
-A network platform that connects blood banks, blood donors and blood requesters built using react(POC).
+
+## Save Life - React App 
+A network platform that connects blood banks, blood donors and blood requesters built using react.
 
 Screenshots below :
 
