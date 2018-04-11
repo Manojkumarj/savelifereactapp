@@ -5,7 +5,6 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {
     fetchCategories
 } from '../../actions';
-import { Grid, Row, Col } from 'react-flexbox-grid';
 import DonateRequestSegment from '../postSegment/DonateRequestSegment';
 
 const styles ={

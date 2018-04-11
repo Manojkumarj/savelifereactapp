@@ -5,7 +5,7 @@ SELECT_CATEGORY
  
  
  function categories (state  = initialCategoriesState , action){
-	  debugger;
+
 	switch (action.type) {
         case LOAD_CATEGORIES:
             let {categories, category} = action;
