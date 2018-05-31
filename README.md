@@ -1,5 +1,5 @@
 
-## Save Life - React App 
+## Save Life - React App  - Sample Proof of Concept (POC)
 A network platform that connects blood banks, blood donors and blood requesters built using react.
 
 Screenshots below :
